@@ -25,6 +25,24 @@ def fontpack_free(sender, **kwargs):
                 "woff": basepath + "/NotoSans-BoldItalic-webfont.woff",
             }
         },
+        "Jost": {
+            "regular": {
+                "truetype": basepath + "/Jost-400-Book.ttf",
+                "woff": basepath + "/Jost-400-Book.woff",
+            },
+            "bold": {
+                "truetype": basepath + "/Jost-600-Semi.ttf",
+                "woff": basepath + "/Jost-600-Semi.woff",
+            },
+            "italic": {
+                "truetype": basepath + "/Jost-400-BookItalic.ttf",
+                "woff": basepath + "/Jost-400-BookItalic.woff",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/Jost-600-SemiItalic.ttf",
+                "woff": basepath + "/Jost-600-SemiItalic.woff",
+            }
+        },
         "Roboto": {
             "regular": {
                 "truetype": basepath + "/Roboto-Regular.ttf",
